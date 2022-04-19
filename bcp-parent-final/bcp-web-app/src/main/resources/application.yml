@@ -1,0 +1,67 @@
+spring:
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      connection-test-query: select 1 from dual
+      minimum-idle: 1
+      connection-timeout: 60000
+      validation-timeout: 3000
+      maximum-pool-size: 10
+      idle-timeout: 60000
+
+  application:
+    name: golf-bcp-web
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+  aop:
+    auto: true
+    proxy-target-class: true
+
+bcp:
+  hb:
+    log:
+      keep-day: 2
+      # 自动清理过期的监控日志, 凌晨2点  帮助地址：
+      # http://cron.qqe2.com/
+      # https://blog.csdn.net/fastlearn/article/details/83306796
+      cron-expression: "0 0 2 * * ?"
+    scheduler:
+      # 是否允许定时任务执行。如果不希望定时任务制定，设置为false
+      start: true
+
+#image captcha config
+captcha:
+  rendomBackground: false
+  maxFontSize: 30
+  minFontSize: 28
+  maxLength: 4
+  minLength: 4
+  imageWidth: 90
+  imageHeight: 40
+
+server:
+  servlet:
+    session:
+      cookie:
+        path: /
+security:
+  oauth2:
+    client:
+      client-id: bcp
+      client-secret: bcp@secret
+
+log-analyse:
+  by-pre-day:
+    # 每天凌晨1点执行一次
+    cron-expression: "0 0 1 * * ?"
+  by-current-day:
+    # 每小时执行一次
+    cron-expression: "0 0 * * * ?"
+
+

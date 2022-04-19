@@ -1,0 +1,330 @@
+[
+  {
+    "id": "Menu_a6qud",
+    "name": "Dashboard",
+    "icon": "el-icon-picture-outline",
+    "index": 1,
+    "path": "/dashboard",
+    "children": [
+      {
+        "id": "Menu_jcdxo",
+        "name": "历史走势监控",
+        "icon": null,
+        "index": 1,
+        "path": "/history",
+        "children": []
+      },
+      {
+        "id": "Menu_4ue9h",
+        "name": "应用请求监控",
+        "icon": null,
+        "index": 2,
+        "path": "/provider",
+        "children": []
+      },
+      {
+        "id": "Menu_rrxw8",
+        "name": "消费端请求监控",
+        "icon": null,
+        "index": 3,
+        "path": "/consumer",
+        "children": []
+      },
+      {
+        "id": "Menu_9o41t",
+        "name": "服务响应异常监控",
+        "icon": null,
+        "index": 4,
+        "path": "/api/error",
+        "children": []
+      },
+      {
+        "id": "Menu_dashboardlog",
+        "name": "业务协同日志",
+        "icon": null,
+        "index": 5,
+        "path": "/log",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_p9m5i",
+    "name": "用户中心",
+    "icon": "el-icon-info",
+    "index": 2,
+    "path": "/user",
+    "children": [
+      {
+        "id": "Menu_on5kn",
+        "name": "个人信息",
+        "icon": null,
+        "index": 1,
+        "path": "/center",
+        "children": []
+      },
+      {
+        "id": "Menu_password",
+        "name": "密码修改",
+        "icon": null,
+        "index": 2,
+        "path": "/password",
+        "children": []
+      },
+      {
+        "id": "Menu_usercreate",
+        "name": "创建用户",
+        "icon": null,
+        "index": 3,
+        "path": "/create",
+        "children": []
+      },
+      {
+        "id": "Menu_userlist",
+        "name": "用户列表",
+        "icon": null,
+        "index": 4,
+        "path": "/list",
+        "children": []
+      },
+      {
+        "id": "Menu_useroperate",
+        "name": "行为历史",
+        "icon": null,
+        "index": 5,
+        "path": "/operate",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_oua71",
+    "name": "消费端管理",
+    "icon": "el-icon-phone-outline",
+    "index": 3,
+    "path": "/consumer",
+    "children": [
+      {
+        "id": "Menu_hjk9v",
+        "name": "消费端列表",
+        "icon": null,
+        "index": 1,
+        "path": "/list",
+        "children": []
+      },
+      {
+        "id": "Menu_e3mlm",
+        "name": "添加消费端",
+        "icon": null,
+        "index": 2,
+        "path": "/add",
+        "children": []
+      },
+      {
+        "id": "Menu_b2j9o",
+        "name": "服务授权",
+        "icon": null,
+        "index": 3,
+        "path": "/api",
+        "children": []
+      },
+      {
+        "id": "Menu_8x3b5",
+        "name": "人社代码配置",
+        "icon": null,
+        "index": 4,
+        "path": "/mohrss",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_iqh2a",
+    "name": "应用管理",
+    "icon": "el-icon-service",
+    "index": 4,
+    "path": "/provider",
+    "children": [
+      {
+        "id": "Menu_imoh6",
+        "name": "应用列表",
+        "icon": null,
+        "index": 1,
+        "path": "/list",
+        "children": []
+      },
+      {
+        "id": "Menu_neo4s",
+        "name": "添加应用",
+        "icon": null,
+        "index": 2,
+        "path": "/add",
+        "children": []
+      },
+      {
+        "id": "Menu_pxext",
+        "name": "负载均衡配置",
+        "icon": null,
+        "index": 3,
+        "path": "/upstream",
+        "children": []
+      },
+      {
+        "id": "Menu_hb",
+        "name": "心跳监测",
+        "icon": null,
+        "index": 4,
+        "path": "/hb",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_6qm3m",
+    "name": "服务管理",
+    "icon": "el-icon-sort",
+    "index": 5,
+    "path": "/api",
+    "children": [
+      {
+        "id": "Menu_cqvib",
+        "name": "添加服务",
+        "icon": null,
+        "index": 1,
+        "path": "/add",
+        "children": []
+      },
+      {
+        "id": "Menu_6ocuo",
+        "name": "我的服务",
+        "icon": null,
+        "index": 2,
+        "path": "/list",
+        "children": []
+      },
+      {
+        "id": "Menu_Param",
+        "name": "参数配置",
+        "icon": null,
+        "index": 3,
+        "path": "/param",
+        "children": []
+      },
+      {
+        "id": "Menu_fmlm8",
+        "name": "熔断降级",
+        "icon": null,
+        "index": 4,
+        "path": "/hystrix",
+        "children": []
+      },
+      {
+        "id": "Menu_sfm01",
+        "name": "模板配置",
+        "icon": null,
+        "index": 5,
+        "path": "/plugin",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_oc07e",
+    "name": "插件管理",
+    "icon": "el-icon-menu",
+    "index": 6,
+    "path": "/plugin",
+    "children": [
+      {
+        "id": "Menu_84ww0",
+        "name": "插件列表",
+        "icon": null,
+        "index": 1,
+        "path": "/list",
+        "children": []
+      },
+      {
+        "id": "Menu_e3j1n",
+        "name": "添加插件",
+        "icon": null,
+        "index": 2,
+        "path": "/add",
+        "children": []
+      },
+      {
+        "id": "Menu_PluginTemplateAdd",
+        "name": "创建模板",
+        "icon": null,
+        "index": 3,
+        "path": "/template/add",
+        "children": []
+      },
+      {
+        "id": "Menu_PluginTemplateList",
+        "name": "插件配置",
+        "icon": null,
+        "index": 4,
+        "path": "/template",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_file01",
+    "name": "文档管理",
+    "icon": "el-icon-document",
+    "index": 7,
+    "path": "/file",
+    "children": [
+      {
+        "id": "Menu_file011",
+        "name": "我的文档",
+        "icon": null,
+        "index": 1,
+        "path": "/list",
+        "children": []
+      },
+      {
+        "id": "Menu_fileupload",
+        "name": "文档上传",
+        "icon": null,
+        "index": 2,
+        "path": "/upload",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "Menu_message",
+    "name": "消息中心",
+    "icon": "el-icon-message",
+    "index": 8,
+    "path": "/message",
+    "children": [
+      {
+        "id": "Menu_announcement_add",
+        "name": "消息编写",
+        "icon": null,
+        "index": 1,
+        "path": "/add",
+        "children": []
+      },
+      {
+        "id": "Menu_messagesend",
+        "name": "消息发送",
+        "icon": null,
+        "index": 2,
+        "path": "/send",
+        "children": []
+      },
+      {
+        "id": "Menu_messagereceive",
+        "name": "收到消息",
+        "icon": null,
+        "index": 3,
+        "path": "/receive",
+        "children": []
+      }
+    ]
+  }
+]

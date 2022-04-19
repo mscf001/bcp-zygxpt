@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+  ##https://fanlychie.github.io/post/spring-boot-tomcat-pool-hikaricp-dbcp-dbcp2.html
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+#      connection-test-query: select 1 from dual
+      minimum-idle: 150
+      connection-timeout: 30000
+      validation-timeout: 30000
+      maximum-pool-size: 150
+      idle-timeout: 600000
+      max-lifetime: 1800000
+  application:
+    name: golf-bcp-service
